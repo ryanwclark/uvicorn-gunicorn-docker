@@ -1,6 +1,6 @@
-FROM python:3.8
+FROM python:3.9
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="Ryan Clark <ryanwclark@yahoo.com>"
 
 RUN pip install --no-cache-dir "uvicorn[standard]" gunicorn
 
